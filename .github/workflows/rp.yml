@@ -1,4 +1,4 @@
-name: HICH29
+name: Windows RDP via Ngrok
 
 on: [push]
 
@@ -64,8 +64,8 @@ jobs:
         Write-Output "||        RDP CONNECTION DETAILS        ||"
         Write-Output "=========================================="
         Write-Output "Address: $tunnelUrl"
-        Write-Output "Username: Hich29"
-        Write-Output "Password: s@mia1!9Hi8xW5."
+        Write-Output "Username: kamel007"
+        Write-Output "Password: kamel007"
         Write-Output "------------------------------------------"
         Write-Output "1. Open Remote Desktop (Win+R → mstsc)"
         Write-Output "2. Connect to: $tunnelUrl"
